@@ -161,18 +161,36 @@
     .cat-block.open .cat-files { display: block; }
 
     .file-item {
-      display: block;
+      display: flex;
+      align-items: center;
+      gap: 6px;
       padding: 5px 10px 5px 26px;
       border-radius: 6px;
       color: var(--text-secondary);
       font-size: 12.5px;
       cursor: pointer;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
       transition: background 0.1s, color 0.1s;
       margin: 1px 0;
       line-height: 1.4;
+    }
+
+    .file-name {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .badge-new {
+      flex-shrink: 0;
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      background: #4ade80;
+      color: #14532d;
+      border-radius: 3px;
+      padding: 1px 5px;
     }
 
     .file-item:hover { background: var(--sidebar-hover); color: var(--text-primary); }
@@ -182,6 +200,10 @@
       color: #e0e7ff;
       font-weight: 500;
     }
+
+    .cat-recent .cat-header { color: #4ade80; }
+    .cat-recent .cat-header:hover { background: var(--sidebar-hover); }
+    .cat-recent .cat-arrow { color: #4ade80; }
 
     .empty-search {
       padding: 16px 12px;
@@ -501,12 +523,55 @@
     });
   }
 
+  function makeFileItem(f, isActive) {
+    const badge = f.new ? `<span class="badge-new">novo</span>` : '';
+    return `
+      <div class="file-item${isActive ? ' active' : ''}"
+           data-path="${esc(f.path)}"
+           title="${esc(f.name)}">
+        <span class="file-name">${esc(f.name)}</span>
+        ${badge}
+      </div>
+    `;
+  }
+
+  function makeCatBlock(name, files, extraClass, isOpen) {
+    const icon = CATEGORY_ICONS[name] || DEFAULT_ICON;
+    const block = document.createElement('div');
+    block.className = 'cat-block' + (isOpen ? ' open' : '') + (extraClass ? ' ' + extraClass : '');
+    block.innerHTML = `
+      <div class="cat-header">
+        <span class="cat-icon">${icon}</span>
+        <span>${esc(name)}</span>
+        <span class="cat-arrow">▶</span>
+      </div>
+      <div class="cat-files">
+        ${files.map(f => makeFileItem(f, currentPath === f.path)).join('')}
+      </div>
+    `;
+    block.querySelector('.cat-header').addEventListener('click', () => block.classList.toggle('open'));
+    block.querySelectorAll('.file-item').forEach(el => {
+      el.addEventListener('click', () => { location.hash = encodeURIComponent(el.dataset.path); });
+    });
+    return block;
+  }
+
   function renderNav(data, filter) {
     const nav = document.getElementById('nav');
     nav.innerHTML = '';
     const q = filter.toLowerCase().trim();
     let total = 0;
 
+    // ── Recentes (only when not searching) ──────────────────
+    if (!q && data.recent_files && data.recent_files.length) {
+      const block = makeCatBlock('RECENTES', data.recent_files, 'cat-recent', true);
+      // override icon
+      block.querySelector('.cat-icon').textContent = '✨';
+      nav.appendChild(block);
+      total += data.recent_files.length;
+    }
+
+    // ── Regular categories ───────────────────────────────────
     const allCats = [...data.categories];
     if (data.root_files && data.root_files.length) {
       allCats.push({ name: 'GERAL', files: data.root_files });
@@ -520,39 +585,11 @@
       if (!files.length) continue;
       total += files.length;
 
-      const isOpen = q || (currentPath && currentPath.startsWith(cat.name + '/')) || cat.name === 'GERAL';
-      const icon = CATEGORY_ICONS[cat.name] || DEFAULT_ICON;
+      const isOpen = q
+        || (currentPath && currentPath.startsWith(cat.name + '/'))
+        || cat.name === 'GERAL';
 
-      const block = document.createElement('div');
-      block.className = 'cat-block' + (isOpen ? ' open' : '');
-
-      block.innerHTML = `
-        <div class="cat-header">
-          <span>${esc(cat.name)}</span>
-          <span class="cat-arrow">▶</span>
-        </div>
-        <div class="cat-files">
-          ${files.map(f => `
-            <div class="file-item${currentPath === f.path ? ' active' : ''}"
-                 data-path="${esc(f.path)}"
-                 title="${esc(f.name)}">
-              ${esc(f.name)}
-            </div>
-          `).join('')}
-        </div>
-      `;
-
-      block.querySelector('.cat-header').addEventListener('click', () => {
-        block.classList.toggle('open');
-      });
-
-      block.querySelectorAll('.file-item').forEach(el => {
-        el.addEventListener('click', () => {
-          location.hash = encodeURIComponent(el.dataset.path);
-        });
-      });
-
-      nav.appendChild(block);
+      nav.appendChild(makeCatBlock(cat.name, files, '', isOpen));
     }
 
     if (total === 0) {

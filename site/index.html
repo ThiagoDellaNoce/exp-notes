@@ -9,16 +9,16 @@
 
     :root {
       --sidebar-w: 272px;
-      --sidebar-bg: #111827;
-      --sidebar-hover: #1f2937;
-      --sidebar-active-bg: #312e81;
-      --sidebar-border: #1f2937;
-      --accent: #818cf8;
-      --accent-dim: #4338ca;
-      --text-primary: #f9fafb;
-      --text-secondary: #9ca3af;
-      --text-dim: #4b5563;
-      --content-bg: #f9fafb;
+      --sidebar-bg: #6b3e92;
+      --sidebar-hover: #7d4aaa;
+      --sidebar-active-bg: #4a2870;
+      --sidebar-border: #5a3280;
+      --accent: #d8b4fe;
+      --accent-dim: #9333ea;
+      --text-primary: #faf5ff;
+      --text-secondary: #e9d5ff;
+      --text-dim: #c4b5fd;
+      --content-bg: #fdf4ff;
       --content-max: 820px;
       --top-h: 52px;
     }
@@ -26,7 +26,7 @@
     html, body { height: 100%; }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: -apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: var(--content-bg);
       color: #111827;
       display: flex;
@@ -55,20 +55,6 @@
       display: flex;
       align-items: center;
       gap: 9px;
-    }
-
-    .brand-dot {
-      width: 28px;
-      height: 28px;
-      background: linear-gradient(135deg, #6366f1, #8b5cf6);
-      border-radius: 7px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      font-weight: 800;
-      color: #fff;
-      flex-shrink: 0;
     }
 
     .brand h1 {
@@ -108,8 +94,8 @@
 
     .search-input {
       width: 100%;
-      background: #1f2937;
-      border: 1px solid #374151;
+      background: #5a3280;
+      border: 1px solid #7d4aaa;
       border-radius: 7px;
       color: var(--text-primary);
       padding: 7px 10px 7px 30px;
@@ -129,7 +115,7 @@
 
     .nav::-webkit-scrollbar { width: 3px; }
     .nav::-webkit-scrollbar-track { background: transparent; }
-    .nav::-webkit-scrollbar-thumb { background: #374151; border-radius: 3px; }
+    .nav::-webkit-scrollbar-thumb { background: #7d4aaa; border-radius: 3px; }
 
     .cat-block {
       margin-bottom: 2px;
@@ -268,7 +254,7 @@
     .welcome-icon {
       width: 56px;
       height: 56px;
-      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      background: linear-gradient(135deg, #9333ea, #c084fc);
       border-radius: 14px;
       display: flex;
       align-items: center;
@@ -350,13 +336,13 @@
     .md-body li > ul, .md-body li > ol { margin-top: 4px; margin-bottom: 4px; }
 
     .md-body code {
-      background: #f3f4f6;
-      border: 1px solid #e5e7eb;
+      background: #f3e8ff;
+      border: 1px solid #e9d5ff;
       border-radius: 4px;
       padding: 2px 6px;
       font-size: 13px;
       font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
-      color: #6366f1;
+      color: #9333ea;
     }
 
     .md-body pre {
@@ -410,7 +396,7 @@
       margin: 28px 0;
     }
 
-    .md-body a { color: #6366f1; text-decoration: none; }
+    .md-body a { color: #9333ea; text-decoration: none; }
     .md-body a:hover { text-decoration: underline; }
 
     .md-body img {
@@ -433,10 +419,9 @@
 <aside class="sidebar">
   <div class="brand">
     <div class="brand-name">
-      <div class="brand-dot">E</div>
       <h1>EXP Notes</h1>
     </div>
-    <div class="brand-sub">EXP Produções</div>
+    <div class="brand-sub" style="color: #c3c3c3">EXP Produções</div>
   </div>
 
   <div class="search-wrap">
@@ -444,7 +429,7 @@
       <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
       </svg>
-      <input type="text" class="search-input" id="search" placeholder="Buscar nota…" autocomplete="off" spellcheck="false">
+      <input type="text" class="search-input" id="search" placeholder="Buscar anotações…" autocomplete="off" spellcheck="false">
     </div>
   </div>
 
@@ -543,7 +528,6 @@
 
       block.innerHTML = `
         <div class="cat-header">
-          <span class="cat-icon">${icon}</span>
           <span>${esc(cat.name)}</span>
           <span class="cat-arrow">▶</span>
         </div>

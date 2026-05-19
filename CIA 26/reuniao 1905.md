@@ -1,6 +1,5 @@
 # Reuniao de alinhamento dia 19/05
 
-
 ## Participantes: Victor, Timeline, Luna, Olliver, Della, Giovana
 
 ### Mapa 3D

@@ -24,12 +24,12 @@ EXCLUDE_ROOT_FILES = {
 }
 
 
-def get_recent_paths(days=7):
-    """Return set of .md paths (relative, forward-slash) modified in the last N days."""
+def get_recent_paths():
+    """Return set of .md paths added or modified in the last commit (HEAD)."""
     try:
         result = subprocess.run(
-            ["git", "log", f"--since={days} days ago",
-             "--name-only", "--diff-filter=AM", "--format="],
+            ["git", "diff-tree", "--no-commit-id", "-r",
+             "--name-only", "--diff-filter=AM", "HEAD"],
             capture_output=True, text=True, encoding="utf-8", errors="replace",
         )
         return {
@@ -50,7 +50,7 @@ def build():
     (SITE_DIR / ".nojekyll").touch()
     shutil.copy("site/index.html", SITE_DIR / "index.html")
 
-    recent = get_recent_paths(days=7)
+    recent = get_recent_paths()
 
     categories = []
     root_files = []

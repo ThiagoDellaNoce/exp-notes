@@ -50,7 +50,7 @@ def build():
     (SITE_DIR / ".nojekyll").touch()
     shutil.copy("site/index.html", SITE_DIR / "index.html")
 
-    recent = get_recent_paths(days=7)
+    recent = get_recent_paths(days=3)
 
     categories = []
     root_files = []

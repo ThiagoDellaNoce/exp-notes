@@ -24,7 +24,7 @@ EXCLUDE_ROOT_FILES = {
 }
 
 
-def get_recent_paths(days=7):
+def get_recent_paths(days=3):
     """Return set of .md paths (relative, forward-slash) modified in the last N days."""
     try:
         result = subprocess.run(

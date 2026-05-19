@@ -1,0 +1,60 @@
+Crie uma planilha completa no Google Sheets para gestão centralizada de pedidos de uma feira, com foco em bebidas, materiais diversos, controle de depósito, almoxarifado e logística. A planilha deve conter as seguintes abas:
+
+ABA 1 – PAINEL GERAL (Dashboard)
+Resumo visual com:
+
+Total de pedidos por categoria (bebidas, materiais, almoxarifado)
+Status geral dos pedidos (pendente, em separação, entregue, cancelado)
+Alertas de itens com estoque crítico no depósito
+Contagem de pedidos por setor/stand solicitante
+Data de atualização automática com =HOJE()
+
+ABA 2 – REGISTRO DE PEDIDOS
+Tabela principal com as colunas:
+ID do Pedido | Data do Pedido | Setor/Stand Solicitante | Responsável | Categoria (Bebida / Material / Limpeza / Outros) | Item Solicitado | Quantidade Solicitada | Unidade (un, cx, kg, lt) | Prioridade (Alta/Média/Baixa) | Status (Pendente/Em Separação/Entregue/Cancelado) | Data de Entrega Prevista | Data de Entrega Real | Observações
+
+Aplicar validação de dados (dropdown) nas colunas: Categoria, Unidade, Prioridade e Status
+Usar formatação condicional: vermelho para Pendente/Cancelado, amarelo para Em Separação, verde para Entregue
+Linha alternada com cor de fundo suave para melhor leitura
+
+ABA 3 – CONTROLE DE DEPÓSITO
+Inventário do depósito com as colunas:
+Código do Item | Nome do Item | Categoria | Estoque Inicial | Entradas | Saídas | Estoque Atual (fórmula: Inicial + Entradas - Saídas) | Estoque Mínimo | Status do Estoque (fórmula: se Atual < Mínimo → "⚠️ Crítico", se Atual < Mínimo*1,5 → "⚡ Atenção", senão → "✅ OK") | Localização no Depósito | Responsável | Última Atualização
+
+Destacar em vermelho linhas com status "Crítico"
+Destacar em laranja linhas com status "Atenção"
+
+ABA 4 – ALMOXARIFADO
+Controle de materiais de uso interno (ferramentas, embalagens, papelaria, EPI, etc):
+Código | Descrição do Material | Categoria | Quantidade Disponível | Quantidade Reservada | Quantidade Livre (Disponível - Reservada) | Unidade | Setor Responsável | Validade (se aplicável) | Observações
+
+Formatação condicional: vermelho se Quantidade Livre = 0, amarelo se Quantidade Livre ≤ 5
+
+ABA 5 – LOGÍSTICA E ENTREGAS
+Rastreamento das entregas com as colunas:
+ID do Pedido (vínculo com Aba 2) | Item | Quantidade | Setor Destino | Endereço/Local do Stand | Responsável pela Entrega | Veículo/Meio | Horário Previsto de Saída | Horário Real de Saída | Horário de Entrega | Status da Entrega (A Caminho/Entregue/Problema) | Observações
+
+Usar formatação condicional por status da entrega
+Criar campo de observações para registrar ocorrências na entrega
+
+ABA 6 – CADASTRO DE ITENS
+Lista mestra de todos os itens para uso como base dos dropdowns:
+Código | Nome do Item | Categoria | Unidade Padrão | Descrição | Ativo (Sim/Não)
+
+Esta aba alimenta as listas de validação das demais abas via INDIRECT ou intervalos nomeados
+
+ABA 7 – CADASTRO DE SETORES/STANDS
+ID do Setor | Nome do Stand/Setor | Responsável | Contato (WhatsApp) | Localização na Feira | Observações
+
+CONFIGURAÇÕES GERAIS DA PLANILHA:
+
+Proteger as abas de Cadastro contra edição acidental (apenas leitura para usuários sem permissão de admin)
+Fixar a primeira linha (cabeçalho) em todas as abas
+Aplicar filtros automáticos em todas as tabelas
+Usar fonte Arial tamanho 10 em todo o corpo, tamanho 12 em negrito nos cabeçalhos
+Cabeçalhos com fundo azul escuro (#1F3864) e texto branco
+Inserir bordas em todas as células preenchidas
+Nomear os intervalos principais para uso em fórmulas (ex: LISTA_ITENS, LISTA_SETORES, LISTA_STATUS)
+Criar um botão (script Apps Script) na aba de Pedidos com a função: "Marcar como Entregue" — que preenche automaticamente a data de entrega real com a data atual ao ser clicado
+
+Esse prompt cobre todos os módulos que você mencionou. Se quiser, posso também criar a planilha diretamente aqui como arquivo .xlsx para você baixar e importar no Google Sheets, ou posso detalhar ainda mais alguma aba específica (como adicionar gráficos, fórmulas prontas, ou o script do botão de entrega). É só falar!

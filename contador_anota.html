@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Anota isso, Della</title>
+
+<style>
+  :root {
+    /* Dracula Theme */
+    --bg: #282a36;
+    --bg-card: #44475a;
+    --fg: #f8f8f2;
+    --purple: #bd93f9;
+    --green: #50fa7b;
+    --pink: #ff79c6;
+  }
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    background: var(--bg-card);
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+    text-align: center;
+    min-width: 300px;
+  }
+
+  h1 {
+    margin: 0 0 20px;
+    font-weight: 500;
+    color: var(--purple);
+  }
+
+  p {
+    margin: 0 0 20px;
+    font-weight: 500;
+  }
+
+  .counter {
+    font-size: 64px;
+    font-weight: bold;
+    color: var(--green);
+    margin: 20px 0 30px;
+  }
+
+  .btn {
+    position: relative;
+    background: var(--pink);
+    color: #282a36;
+    border: none;
+    padding: 16px 32px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 18px rgba(0,0,0,0.4);
+  }
+
+  .btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+
+  /* Ripple Material Design */
+  .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    pointer-events: none;
+  }
+
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Contador de "anota aí, Della"</h1>
+    <p>Widget feito com <b>♡</b> pelo chatGPT <br>para contar cada vez que o Olliver fala "anota aí, Della" na reunião</p>
+    <div class="counter" id="counter">0</div>
+    <button class="btn" id="btn">Ta bom meu chefe...</button>
+  </div>
+
+<script>
+  let count = 0;
+  const counter = document.getElementById('counter');
+  const button = document.getElementById('btn');
+
+  button.addEventListener('click', function (e) {
+    // incrementa contador
+    count++;
+    counter.textContent = count;
+
+    // ripple effect
+    const ripple = document.createElement('span');
+    ripple.classList.add('ripple');
+
+    const rect = button.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height);
+
+    ripple.style.width = ripple.style.height = size + 'px';
+    ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+    ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+
+    button.appendChild(ripple);
+
+    ripple.addEventListener('animationend', () => {
+      ripple.remove();
+    });
+  });
+</script>
+
+</body>
+</html>

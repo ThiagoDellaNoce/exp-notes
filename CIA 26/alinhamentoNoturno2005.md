@@ -6,6 +6,7 @@
 > Derrubada do alambrado
 - R$ 3.500,00 - 
 
+
 ### Fechamentos extras\
 > 372 placas aqui debaixo
 > 166 placas lá em cima

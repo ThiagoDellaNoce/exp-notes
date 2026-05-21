@@ -500,7 +500,7 @@
   let indexData = null;
   let currentPath = null;
 
-  marked.setOptions({ breaks: true, gfm: true });
+  marked.use({ breaks: true, gfm: true });
 
   async function init() {
     try {
@@ -558,6 +558,7 @@
 
   function renderNav(data, filter) {
     const nav = document.getElementById('nav');
+    const savedScroll = nav.scrollTop;
     nav.innerHTML = '';
     const q = filter.toLowerCase().trim();
     let total = 0;
@@ -595,6 +596,8 @@
     if (total === 0) {
       nav.innerHTML = '<div class="empty-search">Nenhuma nota encontrada.</div>';
     }
+
+    nav.scrollTop = savedScroll;
   }
 
   async function loadNote(path) {
@@ -631,13 +634,11 @@
     const parts = path.split('/');
     const bc = document.getElementById('breadcrumb');
     if (parts.length > 1) {
-      const cat = parts[0];
-      const name = parts[parts.length - 1].replace(/\.md$/i, '');
-      bc.innerHTML = `
-        <span class="bc-cat">${esc(cat)}</span>
-        <span class="bc-sep">/</span>
-        <span class="bc-name">${esc(name)}</span>
-      `;
+      const fileName = parts[parts.length - 1].replace(/\.md$/i, '');
+      const dirParts = parts.slice(0, -1);
+      bc.innerHTML = dirParts.map(p =>
+        `<span class="bc-cat">${esc(p)}</span><span class="bc-sep">/</span>`
+      ).join('') + `<span class="bc-name">${esc(fileName)}</span>`;
     } else {
       bc.innerHTML = `<span class="bc-name">${esc(path.replace(/\.md$/i, ''))}</span>`;
     }

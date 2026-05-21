@@ -613,7 +613,7 @@
     const isCatActive = navigable && currentCategory === name;
     const block = document.createElement('div');
     block.className = 'cat-block'
-      + (isOpen ? ' open' : '')
+      + (isOpen ? '' : '')
       + (isCatActive ? ' cat-active' : '')
       + (extraClass ? ' ' + extraClass : '');
     block.innerHTML = `
@@ -633,13 +633,13 @@
     if (navigable) {
       arrow.addEventListener('click', e => {
         e.stopPropagation();
-        // block.classList.toggle('open');
+        block.classList.toggle('open');
       });
       header.addEventListener('click', () => {
         location.hash = encodeURIComponent(name);
       });
     } else {
-      header.addEventListener('click', () => {}); // block.classList.toggle('open')
+      header.addEventListener('click', () => { block.classList.toggle('open') }); // 
     }
 
     block.querySelectorAll('.file-item').forEach(el => {

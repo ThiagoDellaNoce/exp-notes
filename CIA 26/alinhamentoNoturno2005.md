@@ -1,9 +1,10 @@
-# Alinhamento noturno 19/05
+# Alinhamento noturno 20/05
 
 ## Itens a serem negociados
 
 ### Alambrado
 > Derrubada do alambrado
+- R$ 3.500,00 - 
 
 ### Fechamentos extras\
 > 372 placas aqui debaixo
@@ -13,9 +14,7 @@
 > Fornecedor: Batista
 > Fornecedor: Bruno BL
 
-- Estacionamento segue igual
-- Quantitativo de fechamento final [prazo] hoje Iza
-- 68 metros para Arena America
+- Atualização de escopo do Adão, para definir novos pedidos
 
 ### Gradil
 > Batista -
@@ -23,51 +22,51 @@
 > Ronim -
 > Amarildo - cidade
 
-Amarildo esportivo - 
-50 peças no shopping (Amarildo)
-
-- Quantitativo de gradil [prazo] amanhã Itamar
+- Levantamento de descritivo de gradil do esportivo para fazer pedido
 
 ### Barricadas e Easyfloor
 > Caprimar
-
-- Diminuir quantitade de barricada;
-- Diminuir 100m de easy floor
-- Avaliar diminuir easyfloor do backstage
-- Orçamento - R$ 90,00 barricads
+- chegada do material 25/05 - Itamar
 
 ### Catracas
 > Samuel
+- Definição de escopo?
 
 ### Andaimes
 > 11 torres de 5m - R$ 955,00 Total
-- Pedido
+- Montagem amanhã
 
 ### Octanorm
 > Lok 
 > Guerra
 > Facchini
+- Atualização de negociação?
+[PRAZO] - 23/05 sexta feira
 
 ### Mesa e cadeira
 > Jô festas
-- Olliver puxando
+- Amanhã chegam 20 jogos, vai pra vila
 
 ### Brinquedos
 > Serão apenas os nossos
-- Bungee jump
+- Bruno puxando o bungee jump
 - Touro e pula pula
+R$ 7600,00
 
 ### Painel de led
 > Definir o fornecedor e valor
-- 
+- atualização de negociação
+[Prazo] - sexta-feira
 
 ### Efeitos especiais
 > Definir escopo do Mirão
-- 
+- atualização de escopo
+R$ 100.000,00
 
 ### Gerador
 > Definir valor e fornecedor
-- 170.000,00
+- atualização de escopo e passacabos
+- descritivo de passa cabos para a entrada dos banheiros e para o paredão da red Bull
 
 ### Transmissão simultanea
 > Thiago Rodeio
@@ -78,6 +77,7 @@ Amarildo esportivo -
 
 ### Limpeza
 - Forcar sexta feira a codau trabalhar
+- negociando ainda
 
 ### Rádios
 > Precisa de 15 rádios para a Views semana que vem
@@ -85,9 +85,13 @@ Amarildo esportivo -
 - 10 carregadores
 - 2 tendas
 - 2 pta
+- cronograma de PTA e empilhadeira (bar, caprimar, tukura, views, luz, painel de led, estevam)
 
 #### crachás
 > forms ta criado, com o forms ja criei pensando nos dados pro credenciamento
+
+- Bar entra material dia 31/05
+
 
 ## Mão de obra
 
@@ -98,7 +102,13 @@ Amarildo esportivo -
 > Produtor de Seguranças?
 - Force
 - Outras duas empresas seguranças
+- 15% pra baixo
+[Prazo] - mapa de segurança
 
+### Carregadores
+> segunda equipe 
+
+### 
 ### Brigadistas
 > Phoenix
 > Quais outras empresas?
@@ -153,3 +163,4 @@ Amarildo esportivo -
 > Frete, lista de frete
 > Mandar a lista de frete no grupo
 > caixa d`agua, pinos, cordas, mangueiras, metalon, cone, canos
+

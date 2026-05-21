@@ -429,6 +429,71 @@
 
     .hidden { display: none !important; }
 
+    /* ── Category page ────────────────────── */
+    .cat-page { max-width: var(--content-max); margin: 0 auto; }
+
+    .cat-page-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    .cat-page-icon { font-size: 32px; line-height: 1; flex-shrink: 0; }
+
+    .cat-page-header h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #111827;
+      flex: 1;
+    }
+
+    .cat-page-count {
+      font-size: 12px;
+      color: #9ca3af;
+      background: #f3f4f6;
+      padding: 3px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    .cat-page-list { display: flex; flex-direction: column; gap: 1px; }
+
+    .cat-page-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 14px;
+      border-radius: 7px;
+      cursor: pointer;
+      color: #1f2937;
+      font-size: 14px;
+      transition: background 0.1s;
+    }
+
+    .cat-page-item:hover { background: #f3e8ff; }
+    .cat-page-item.indented { padding-left: 38px; }
+    .cat-page-item-name { flex: 1; }
+
+    .cat-page-subfolder {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 16px 14px 5px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    .cat-block.cat-active > .cat-header {
+      background: var(--sidebar-active-bg);
+      color: var(--text-primary);
+    }
+
     /* ── Responsive ───────────────────────── */
     @media (max-width: 720px) {
       :root { --sidebar-w: 220px; }
@@ -499,6 +564,7 @@
 
   let indexData = null;
   let currentPath = null;
+  let currentCategory = null;
 
   marked.use({ breaks: true, gfm: true });
 
@@ -514,13 +580,20 @@
       return;
     }
 
-    const hash = decodeURIComponent(location.hash.slice(1));
-    if (hash) loadNote(hash);
+    const hash = location.hash.slice(1);
+    if (hash) navigate(hash);
 
-    window.addEventListener('hashchange', () => {
-      const p = decodeURIComponent(location.hash.slice(1));
-      if (p) loadNote(p);
-    });
+    window.addEventListener('hashchange', () => navigate(location.hash.slice(1)));
+  }
+
+  function navigate(encoded) {
+    const h = decodeURIComponent(encoded);
+    if (!h) return;
+    if (h.includes('/') || h.endsWith('.md')) {
+      loadNote(h);
+    } else {
+      loadCategory(h);
+    }
   }
 
   function makeFileItem(f, isActive) {
@@ -535,10 +608,14 @@
     `;
   }
 
-  function makeCatBlock(name, files, extraClass, isOpen) {
+  function makeCatBlock(name, files, extraClass, isOpen, navigable) {
     const icon = CATEGORY_ICONS[name] || DEFAULT_ICON;
+    const isCatActive = navigable && currentCategory === name;
     const block = document.createElement('div');
-    block.className = 'cat-block' + (isOpen ? ' open' : '') + (extraClass ? ' ' + extraClass : '');
+    block.className = 'cat-block'
+      + (isOpen ? ' open' : '')
+      + (isCatActive ? ' cat-active' : '')
+      + (extraClass ? ' ' + extraClass : '');
     block.innerHTML = `
       <div class="cat-header">
         <span class="cat-icon">${icon}</span>
@@ -549,9 +626,28 @@
         ${files.map(f => makeFileItem(f, currentPath === f.path)).join('')}
       </div>
     `;
-    block.querySelector('.cat-header').addEventListener('click', () => block.classList.toggle('open'));
+
+    const header = block.querySelector('.cat-header');
+    const arrow = block.querySelector('.cat-arrow');
+
+    if (navigable) {
+      arrow.addEventListener('click', e => {
+        e.stopPropagation();
+        block.classList.toggle('open');
+      });
+      header.addEventListener('click', () => {
+        location.hash = encodeURIComponent(name);
+        block.classList.add('open');
+      });
+    } else {
+      header.addEventListener('click', () => block.classList.toggle('open'));
+    }
+
     block.querySelectorAll('.file-item').forEach(el => {
-      el.addEventListener('click', () => { location.hash = encodeURIComponent(el.dataset.path); });
+      el.addEventListener('click', e => {
+        e.stopPropagation();
+        location.hash = encodeURIComponent(el.dataset.path);
+      });
     });
     return block;
   }
@@ -565,8 +661,7 @@
 
     // ── Recentes (only when not searching) ──────────────────
     if (!q && data.recent_files && data.recent_files.length) {
-      const block = makeCatBlock('RECENTES', data.recent_files, 'cat-recent', true);
-      // override icon
+      const block = makeCatBlock('RECENTES', data.recent_files, 'cat-recent', true, false);
       block.querySelector('.cat-icon').textContent = '✨';
       nav.appendChild(block);
       total += data.recent_files.length;
@@ -579,6 +674,7 @@
     }
 
     for (const cat of allCats) {
+      const isReal = cat.name !== 'GERAL';
       const files = q
         ? cat.files.filter(f => f.name.toLowerCase().includes(q))
         : cat.files;
@@ -588,9 +684,10 @@
 
       const isOpen = q
         || (currentPath && currentPath.startsWith(cat.name + '/'))
+        || (currentCategory === cat.name)
         || cat.name === 'GERAL';
 
-      nav.appendChild(makeCatBlock(cat.name, files, '', isOpen));
+      nav.appendChild(makeCatBlock(cat.name, files, '', isOpen, isReal));
     }
 
     if (total === 0) {
@@ -600,8 +697,95 @@
     nav.scrollTop = savedScroll;
   }
 
+  function renderCategoryPage(cat) {
+    const rootFiles = [];
+    const subfolders = new Map();
+
+    for (const f of cat.files) {
+      const parts = f.path.split('/');
+      const subParts = parts.slice(1, -1);
+      if (subParts.length === 0) {
+        rootFiles.push(f);
+      } else {
+        const key = subParts.join(' / ');
+        if (!subfolders.has(key)) subfolders.set(key, []);
+        subfolders.get(key).push(f);
+      }
+    }
+
+    const icon = CATEGORY_ICONS[cat.name] || DEFAULT_ICON;
+    const total = cat.files.length;
+
+    let html = `
+      <div class="cat-page">
+        <div class="cat-page-header">
+          <span class="cat-page-icon">${icon}</span>
+          <h1>${esc(cat.name)}</h1>
+          <span class="cat-page-count">${total} ${total === 1 ? 'nota' : 'notas'}</span>
+        </div>
+        <div class="cat-page-list">
+    `;
+
+    for (const f of rootFiles) {
+      const name = f.path.split('/').pop().replace(/\.md$/i, '');
+      const badge = f.new ? '<span class="badge-new">novo</span>' : '';
+      html += `<div class="cat-page-item" data-path="${esc(f.path)}">
+        <span>📄</span>
+        <span class="cat-page-item-name">${esc(name)}</span>
+        ${badge}
+      </div>`;
+    }
+
+    for (const [key, files] of subfolders) {
+      html += `<div class="cat-page-subfolder">
+        <span>📂</span>
+        <span>${esc(key)}</span>
+      </div>`;
+      for (const f of files) {
+        const name = f.path.split('/').pop().replace(/\.md$/i, '');
+        const badge = f.new ? '<span class="badge-new">novo</span>' : '';
+        html += `<div class="cat-page-item indented" data-path="${esc(f.path)}">
+          <span>📄</span>
+          <span class="cat-page-item-name">${esc(name)}</span>
+          ${badge}
+        </div>`;
+      }
+    }
+
+    html += `</div></div>`;
+    return html;
+  }
+
+  async function loadCategory(catName) {
+    const cat = (indexData.categories || []).find(c => c.name === catName);
+    if (!cat) return;
+
+    currentCategory = catName;
+    currentPath = null;
+    renderNav(indexData, document.getElementById('search').value);
+
+    document.getElementById('welcome').classList.add('hidden');
+    document.getElementById('loading').classList.add('hidden');
+
+    const body = document.getElementById('md-body');
+    body.innerHTML = renderCategoryPage(cat);
+    body.classList.remove('hidden');
+    document.querySelector('.content-scroll').scrollTop = 0;
+
+    body.querySelectorAll('.cat-page-item[data-path]').forEach(el => {
+      el.addEventListener('click', () => {
+        location.hash = encodeURIComponent(el.dataset.path);
+      });
+    });
+
+    const icon = CATEGORY_ICONS[catName] || DEFAULT_ICON;
+    const bc = document.getElementById('breadcrumb');
+    bc.innerHTML = `<span class="bc-name">${icon} ${esc(catName)}</span>`;
+  }
+
   async function loadNote(path) {
     currentPath = path;
+    currentCategory = null;
     renderNav(indexData, document.getElementById('search').value);
 
     document.getElementById('welcome').classList.add('hidden');

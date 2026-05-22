@@ -1,6 +1,6 @@
-# Alinhamento noturno 20/05
+# Alinhamento noturno 21/05
 
-## Itens a serem negociados
+## Itens a serem negociasdos
 
 ### Alambrado
 > Derrubada do alambrado - DIA 27/05

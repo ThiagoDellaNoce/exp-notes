@@ -1,10 +1,6 @@
-# Alinhamento noturno 22/05
+# Alinhamento noturno 23/05
 
 ## Itens a serem negociados
-
-### Alambrado
-> Derrubada do alambrado - DIA 27/05
-- R$ 3.500,00 - Puxar data de fechamento da Rua com o Alaor
 
 ### Painel de led
 > Definir o fornecedor e valor
@@ -36,33 +32,17 @@
 -- Definição da Disney e aguardar quantitativo de esportivo
 
 ### Octanorm
-<!-- > Lok 
-> Guerra 
-> Facchini 
-- Atualização de negociação? 
-[PRAZO] - 23/05 sexta feira -->
-> Lembrar de negociar com o da Veronica
-> fazer a tenda dos caixas com octanorm (5x5x entre os foods, easyfloor e balcão pra frente)
-
-- Puxar o fornecedor de Franca e cotar com ele
+Atualização do Guerra
 
 ### Barricadas e Easyfloor
-> Caprimar
-> Fornecedor de easyfloor de Ribeirão
-- chegada do material 01/06 - Itamar
--> Prazo hoje pra definição
+Atualização de barricadas e easyfloor
 
 [SeSamuel] ### Catracas
 > Samuel
 - Definição de escopo?
 
-### Efeitos especiais
-> Definir escopo do Mirão
-- atualização de escopo
-R$ 100.000,00
-
 ### VJ
-> Bro Company - R$ 32.750,00 10 loops | R$ 28.150,00 6 loops
+- Segunda reunião com Zee
 
 ## Mão de obra
 
@@ -76,26 +56,37 @@ R$ 100.000,00
 - 15% pra baixo
 [Prazo] - mapa de segurança
 
-### Carregadores
-> segunda equipe
-
 [SeSamuel] ### Credenciamento
 > Empresa contratada?
 
 ## Cronograma
 
-> alambrado: data?
+> Banheiro VIP (Pegar nome do fornecedor - Silvio): Ver se o Clayton cobra para sugar;
+
 > Painel de led: negociação?
-> torre de fogos: negociação? PTA - passar cronograma certinho
+240.000,00 - com o fornecedor da Renatinha;
+Nillight;
+
+> torre de fogos - virou a 4° PTA - chega segunda feira ficamos com:
+| Chapa de aluminio para a torre de fogos;
+    - ⁠LOK com 1 de 20m
+    - ⁠⁠Views com 2 de 26m
+    - ⁠⁠Tucura com 1 de 20m
+
 > gerador e passacabo: negociação? - até amanhã para o Daniel responder / Dinei com o Bruno
-> Octanorm: negociação? -
+168.000,00
+
+> Octanorm: atualização do Guerra ?
+Guerra: 40.500,00 - 114,00 o metro
 
 ---
 
-> easyfloor: ataulização do status? -
-> VJ zee: atualização do status? - Aguardando orçamento
+> easyfloor: ataulização do status?
+[tarefa] - revisar quantidade de easyfloor
+
+> VJ zee: atualização do status? - reunião segunda-feira
+
 > Seguranças e brigadistas: atualização do status? - brigar por valores | puxar de Franca
-> Carregadores: atualização do status?
 
 ---
 
@@ -104,25 +95,29 @@ R$ 100.000,00
 ---
 
 > Piso: Preocupa prazo
-
-> Caixa d'agua: para a cozinha pipa as 10h
-> Cozinha: para segunda-feira
+- arquibancada para domingo
 
 > Tendas: Lonar tudo (segunda-feira)
+- só segunda
 
 > Box: Palco principal
+- só segunda
 quarta feira caminhão munck - teto 360 e madruga
 
 > Box: Palco eletrônico
+- só segunda
 
 > Arquibancada? data?
 
 > Lycra: Libera a frente pro Tukura
+- domingo
 levantar lista de frete (eucalipto, cone, fitas zebradas)
 
 > Elétrica: Geraluz ataca luz ambiente
+- só segunda
 
 > Hidráulica: atacar a agua da cozinha até segunda
+- 
 2800,00
 
 > Banheiros quimicos, quando mais proximo do evento melhor, para não ter limpeza antes
@@ -137,37 +132,22 @@ quarta-feira que vem
 > Container: oque falta?
 - refazer contas (2 escritório na vila, 1 escritório views)
 
----
-
-BOX PRINCIPAL:
-    - Cobertura da house principal
-    - Seguir montagem
-
-BOX ELETRONICO:
-    - Seguir montagem
-
-TENDAS:
-    - Lonar oque está montado
-
-CEMIG E CODAU:
-    - até terça-feira tudo certo
-
-HIDRÁULICA:
-    - Ligar a cozinha
-
-PISOS:
-    - Arremates
-
-ENERGIA:
-    - Iluminação de serviço - Palco
-
-ARQUIBANCADA:
-    - Quando monta?
-
----
-
 > Carregadores para amanhã?
 - 0 carregadores
+lok, madruga, views, produção, 
 
-> Diesel?
-- 
+> Diesel, Pia do Sancello, 
+
+[TAREFA] - construir um respiro na valeta para a passagem de empilhadeira
+
+[TAREFA] - Atualizar
+ sobre troca de pulseiras com o Alaor
+
+<--->
+Esportivo
+
+- levantamento de orçamentos e cotações;
+
+- Achar um produtor para ficar na Funel (Beltrão);
+
+- Limpeza: 

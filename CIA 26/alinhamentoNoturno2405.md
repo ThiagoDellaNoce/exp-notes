@@ -1,4 +1,4 @@
-# Alinhamento noturno 23/05
+# Alinhamento noturno 24/05
 
 ## Itens a serem negociados
 

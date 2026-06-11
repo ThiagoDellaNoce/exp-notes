@@ -1,9 +1,9 @@
-# Alinhamento noturno 31/05
+# Alinhamento noturno 01/05
 
 ## Itens a serem negociados
 
 ### Seguranças e Brigadistas: - Itamar levantando
-Contato de Franca;
+fechou com o Thiago
 [Hoje]
 
 ### Palco principal
@@ -11,22 +11,35 @@ Contato de Franca;
 [OLLIVER] saiu o projeto;
 [TOTA] arrumar as escadas e a cotação serralheiro; - AMANHÃ CEDO
 
+barricada amanhã cedo
 ---
 
 *-* 2° piso da house
-Estudio chega amanhã as 10h
-[TOTA] olhar segunda opção de escada 11,25m para subida;
 - cabo de aço do Madruga;
-- Organizar com o Guilherme para trazer as escadas novas (pode ter arremate);
+- mão francesa;
+cubo em baixo no pé;
+algemas;
+avaliar uma forma de travar tudo;
 
 ---
 
 *-* organizar a torre para subida do iluminador
 Ver com os iluminadores (canhão seguidor) melhor forma deles subirem
 
+### palco 360
+entra som e luz - M2
+
+### foodtruck
+colar mais os foodtrucks;
+
+### easyfloor
+Acabar backstage;
+cia club;
+
 ### Palco eletrônico
 
 ### Gerador
+jump para a rede elétrica
 
 ### Elétrica
 
@@ -36,36 +49,41 @@ Ver com os iluminadores (canhão seguidor) melhor forma deles subirem
 [Renata] - Mudar torre de banheiro 2 para lá em cima
 piso das valetas amanhã também
 
-### Easy floor
+### bar
+- amanhã corre corre de entrega de bebidas
+
+### tendas
+tendas da rua
+10x10 palco principal
+ambulatório
+acolhimento
+bungee jump
+- bar 02
+- tirar a tenda da portaria
+- fechamento em lona
+
+### piso
+- mudar de lugar a torre de andaime
+- tabua da valeta
+- escada da globo
+- escada palco principal
+
+[NIX] Achar dançarino para subir na varanda do palco
 
 ### Fechamentos
-
-### Gradil
-
-### Tendas
-
-### Fechamento lateral
-
-### Box (principal)
-
-### Box (eletrônico)
-
-### Box (diversos)
-
-### Catracas
-
-### Banheiros quimicos
-
-### Octanorm
+- 
 
 ### Banheiro VIP
+- entra amanhã (final da tarde)
 
 ### Hidráulica
 - cozinha da Loren
+- definir se vai montar ou não a cozinha
 
 ### Mobilia - CIA CLUB
 
 ### Thiaguinho
+photopoint
 
 ### Internet
 Terminou toda passagem de fibra, amanhã vem posicionando os aparelhos (ideia é acabar amanhã)
@@ -76,7 +94,7 @@ Terminou toda passagem de fibra, amanhã vem posicionando os aparelhos (ideia é
 
 ### Carregadores - Segunda equipe de seguranças
 Carregadores 02/06
-            12 - M2
+            06 - M2
             06 - Top light
             12 - Supersom
             04 - Views
@@ -86,6 +104,7 @@ Carregadores 02/06
             04 - Caprimar
             03 - Esportivo (Funel)
 Total: 61
+            04 - Timeline/Geovana
 
 *Bar*
 alguma atualização para cá?
@@ -137,12 +156,17 @@ Hoje andamos com:
     - tenda lycra
 
 *frete*
+        - luminoso,
+        - luminoso cia club,
+        - puff
     - Frete de redes;
     - frete de lampadas;
     - Espagheti de piscina;
+    - brinquedos;
 
 *Compra*
     - Cones para sinalização de estacas;
+    Lona preta - rolo
 
 *Seguranças:*
 6 noturno
@@ -153,3 +177,14 @@ Diesel
 gás
 agua
 gelo
+
+CRACHAS
+- auxiliares de palco
+-
+
+blimp e instalação
+
+guindaste
+
+- iluminação cia club e backstage (future pro, giovanne, Beltrão)
+- e Paredão da redbull

@@ -75,7 +75,7 @@ Itamar bares para o bar
 Passado para o Bruno
 
 ## Seguranças
-25 seguranças (calmos)
+25 seguranças
 [Tarefas] Montar mapa de seguranças
 
 ## Patrimonial
@@ -97,3 +97,8 @@ quarta a domingo
 
 30 total
 
+## rampa
+
+## brinquedos
+
+## 

@@ -5,6 +5,7 @@
 ### Listagem
 
 > 20/06 - Festa junina Marista
+> 20/06 - Meio Curso Odonto
 > 27/06 - Meio Curso Odonto
 > 04/07 - Meio medico T48 (Mini Baile)
 > 01/08 - Baile Unificadas (24h de montagem)

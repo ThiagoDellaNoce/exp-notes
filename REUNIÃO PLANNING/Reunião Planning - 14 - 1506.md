@@ -9,7 +9,6 @@
 - ACIU
 - Formaturas
 
-
 [Tarefa] - Bater carregadores da Lok
 
 [Tarefa] - Revisar pagamentos em aberto

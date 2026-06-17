@@ -37,6 +37,14 @@ Drive produção: (2026) - https://drive.google.com/drive/folders/1bhsCq-ZasaVHw
 
 > Planilha Formaturas (Kadu): [Atualizar link da planilha]
 
+### 24/06 - Arena América (dia 03)
+
+> Pasta drive: https://drive.google.com/drive/folders/1jIxA6N2__PziOZ5E0xnUmEwXSd71ISSF
+
+> Planilha planejamento: https://docs.google.com/spreadsheets/d/1vVvr5X-nF9iE1n9CtZ2sSUdWPa05aNpWcL2eH2YMP1c/edit?gid=0#gid=0
+
+> Ultimo croqui: https://drive.google.com/file/d/1lUo8N30phV7XJyUAGfTvuonpypBYWhtT/view?usp=drive_link
+
 ### 27/06 - Meio odonto UNIUBE
 
 > Pasta drive: https://drive.google.com/drive/folders/17_3qfc4w3ttpIPFrUWokCxJY7_J_9gF1?usp=drive_link

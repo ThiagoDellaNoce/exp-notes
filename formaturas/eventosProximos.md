@@ -24,4 +24,3 @@
 > https://docs.google.com/spreadsheets/d/1c3ZME8h-3LMwj3cPBeeiuW0n2qE2oVeV/edit?gid=1685981470#gid=1685981470
 Quebrar as tarefas pra negociação, 25/06
 VT amanhã (Giovanne)
-

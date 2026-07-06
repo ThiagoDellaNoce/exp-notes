@@ -129,6 +129,8 @@ eles estão organizando uma pessoa em cada ponto, acompanhando horários de emba
 > Marcar uma reunião com cerimonia
 > Marcar sexta-feira para VT
 
+> controle de entrada no refeitório, validação e marcação de quem comeu para comprovação de que todos se alimentaram
+
 # Comunicação
 Ambientação dos locais (CV das praças)
 > kit basico: entregue para distribuir como quiser, tanto interno quanto externo.

@@ -21,34 +21,34 @@
 
 ### 01/08 - Forms unificadas
 
-- Timeline batendo, terminar contratações principalmente box som e luz (travado em aprovações com o Gonzaga)
-- Ponto de risco montagem (pouco tempo para conclusão)
+x- Timeline batendo, terminar contratações principalmente box som e luz (travado em aprovações com o Gonzaga)
+x- Ponto de risco montagem (pouco tempo para conclusão)
 
-- Carpete
-- Piso de palco terça-feira (111,35m²)
+x- Carpete
+x- Piso de palco terça-feira (111,35m²)
 
-- Madruga entra quarta-feira
-- Entra na quinta-feira
+x- Madruga entra quarta-feira
+x- Entra na quinta-feira
 
-- Atualizar descritivos na planilha
+x- Atualizar descritivos na planilha
 
-- vodka absolut, red label, salton, tequila, energético (fusion ou redbull)
+x- vodka absolut, red label, salton, tequila, energético (fusion ou redbull)
 
-- Definir com o Bruno sobre a cenica
+x- Definir com o Bruno sobre a cenica
 
-- Instalar cabo triplex na quinta-feira (Diego) (rede elétrica do climatizadores) (Luz de serviço nos corredores Refletores)
+x- Instalar cabo triplex na quinta-feira (Diego) (rede elétrica do climatizadores) (Luz de serviço nos corredores Refletores)
 
-- gerador na sexta-feira
+x - gerador na sexta-feira
 
-- iluminação cenica entrar na quinta-feira na hora do almoço
+x- iluminação cenica entrar na quinta-feira na hora do almoço
 
-- piso vinilico quinta-feira manhã
+x- piso vinilico quinta-feira manhã
 
-- Definir desenho de line (SOM)
+x- Definir desenho de line (SOM)
 
-- Alaor e Grol | Ver com o helim
+x- Alaor e Grol | Ver com o helim
 
-### 10/08 - UAI Summit
+### 10/08 - Lançamento UAI Summit
 Lançamento UAI Summit - Euroville
 Puxar escopo [Quarta-feira] Timeline
 Desenho do croqui [Quarta-feira] Timeline

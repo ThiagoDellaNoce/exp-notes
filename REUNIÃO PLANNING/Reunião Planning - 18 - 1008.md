@@ -1,55 +1,6 @@
 # Resumo de tarefas
 
-## 29/07 - Loja shopping
-
--> Pagamentos
-
-## 01/08 - Forms unificadas
-
--> Desmontagem (?)
-
--> Atualizar status de pagamentos
-
-## 10/08 - Lançamento UAI Summit
-
-Lançamento UAI Summit - Euroville
-[X] Desenho do croqui - Giovanna
-
-- Puxar sobre Bar com o Samuel (Agua, refrigerante, Suco)
-
-- Mobiliário (Sancelo) [atualizar]
-        - 20 bistrôs
-        - 60 banquetas para bristos
-        - 200 copos tipo tulipa
-        - 100 taças
-        - 02 carrinho para bebidas
-        - 02 aparador para chopeira
-        - 02 aparador para pizza
-        - 1 tapete 3x2m
-        - 1 cuba para bebidas
-
-- Palco [adicionarPiso]
-        - Som, Luz e LED
-        - 02 caixa de som ativa
-        - 01 mesa de DJ ( para apoio do equipamento que ela já tem)
-        - 02 microfone
-        - 01 DJ (Girla) (R$ 500,00) (comissão da agencia ?)
-
-- Staff
-        - 05 garçons (sendo 04 para serviço de pizza e 01 para recolhimento)
-        - 01 recepcionista
-        - 01 VJ – Della
-        - 01 Social Media
-        - 01 fotógrafo
-        - 01 Limpeza
-        - 02 Auxiliar
-
-- Comunicação visual
-        - 01 tecido impresso backdrop – 3x3m
-        - 01 estrutura de q15 3x3m
-        - 01 Adesivo no vidro para comunicar que é o carro que vai ser usado com os palestrantes ( Ronaldo )
-        - 01 logomarca UAI Summit - contato Ronaldo [MandarArrumar]
-        - Trocar o carro no cubo de vidro pelo que vai levar os palestrantes ( Ronaldo )
+## 12/08 19h.23h - Lançamento UAI Summit
 
 ## 15/08 - 100 dias 3° colegial Gabarito
 
@@ -76,6 +27,8 @@ Lançamento UAI Summit - Euroville
 - Montagem e operação
 - Nota da nossa mão de obra
 
+- reunião do GT de alimentação 05/08 - 15h
+
 ## 04/09 - Exposete
 
 - Descobrir o escopo
@@ -91,7 +44,7 @@ Lançamento UAI Summit - Euroville
 
 ## 05/09 - Festival Gastronomico
 
-- Puxar escopo
+- Iza desenhando a planta entrega dia 06/08
 
 ## 12/09 - UAI Summit
 

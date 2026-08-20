@@ -62,6 +62,41 @@ Kadu e Giovanne
 
 - Contratos de geraaaaal
 
+[Della] - Atualizar a planilha de trabalho
+
+- sábado chega container;
+- Piso sábado;
+- domingo elétrica e hidráulica e tenda;
+- segunda feira - Cozinha;
+- segunda feira - luz, som e pronto pra teste;
+- teste dia 25;
+
+Confirmar se ta tudo ok com o Guilherme montando;
+
+[Giovanne] - Bater se uma ambulancia só faz;
+
+[Itamar] - Certificar se está tudo com a elétrica
+
+[Itamar] - Orçar novos fornecedores - eletricistas
+
+[Giovanne] - Organizar nomes por van, de cada viagem
+[Giovanne] - Levantar nomes e CPFs para o seguro de viagens dessas vans
+[Olliver] - Levantar lista de quem trabalha por horário - [timetable]
+
+[Leozin] - responsável pelos jogos (bolas e afins)
+
+[Itamar] - Arrumar os brinquedos
+
+[Curu] - Contratar 3 delegados de quadra, para cuidar de nossos equipamentos
+
+[Leozin] - Contabilidade de material esportivo
+
+- Bater com o Fernando sobre responsável do material locado, se é delegado de quadra nosso ou delegado de quadra deles
+
+- Puxar quantidade de material esperado e bater uma lista desse e onde
+
+[Giovanne] - Gelo e agua para a Natação
+
 ## 29/08 - 100 dias 3° colegial Gabarito
 
 - 29/08/26
@@ -103,6 +138,14 @@ Kadu e Giovanne
 
 - Puxar sobre tratativas do financeiro do evento
 
+-- Atualização de croqui adicionando os patrocinadores e feirinha de artesões
+
+- !Não deixar a porra do gordo solto!
+
+- Puxar sobre horário
+
+[Olliver] - Sideral (puxar demandas do artistico disso)
+
 ## 12/09 - UAI Summit
 
 - Precificar stands personalizados
@@ -111,6 +154,10 @@ Kadu e Giovanne
 
 - UAI Cult criar planilha de trabalho
 
+----
+
+[Giovanna] - fazer o mapa e melhorar o palco
+
 ## 17/09 - Uberaba Rodeo Show
 
 [Gonzaga] - quinta precisa de uma dupla para abrir e H&G 00h
@@ -118,6 +165,32 @@ Kadu e Giovanne
 
 [Olliver] - criar a planilha de produtores
 [iza] - terminar a planta baixa - definir data de conclusão
+
+---
+Ponderações Victor:
+
+- arquibancada grande
+- pessoal da pista vai ficar onde? antes de liberar
+- area do prime, para o rodeo está pequena (aumentaria uma "banda")
+
+- aumentar o piso do prime até o final da cobertura, para conseguirem ver o rodeio
+
+- repensar quantidade de camarote corporativo (3 vendidos apenas)
+- e pensar uma data limite para poder fechar novos corporativos
+
+- espaço do corredor atrás da torre de delay pequeno
+
+- mudar a tenda, e pensar direto na estrutura do food em si
+
+- tentar arrumar fornecedor de mesa de picnic
+
+- repensar a house para a lateral
+
+- repensar tenda da cozinha e receptivo do café de la musique
+
+- girar o receptivo e pensar na entrada com um corredor e luminoso do café
+
+- 
 
 ## 19/09 - Minas ao Luar
 

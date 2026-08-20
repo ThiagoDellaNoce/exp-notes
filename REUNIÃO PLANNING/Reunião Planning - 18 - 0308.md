@@ -1,15 +1,5 @@
 # Resumo de tarefas
 
-## 29/07 - Loja shopping
-
--> Pagamentos
-
-## 01/08 - Forms unificadas
-
--> Desmontagem (?)
-
--> Atualizar status de pagamentos
-
 ## 10/08 - Lançamento UAI Summit
 
 Lançamento UAI Summit - Euroville
@@ -53,14 +43,12 @@ Lançamento UAI Summit - Euroville
 
 ## 15/08 - 100 dias 3° colegial Gabarito
 
-- Possivelmente não vai ter, previsão até dia 05/08 para bater o martelo
-- Kadu pré festa
-
-- depois de outubro (10 a 17/10)
+- 29/08/26
+- ⁠Chácara Villa Vitória
+- ⁠15h ás 21h
 
 ## 22/08 - Calourada Patológica
 
-[ ] - Bater descritivo e negociações com fornecedores locais.
 [ ] - Itamar batendo já fechamento e outros.
 [X] - Della desenhar um mapa como pensado e encaminhar no grupo.
 [X] - Até quarta-feira, para até o dia 07, ter planilha orçada.

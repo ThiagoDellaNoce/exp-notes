@@ -108,3 +108,48 @@ depois acabamentos
 
 segunda feira
 
+## patrocinadores
+
+- nat beauty
+ativação em todas as areas
+ja mandou para o Giovanne - precificando o stand - bater com o Giovanne
+- desenhar o box (4 de 2x1)
+- desenhar o box do café
+
+- extra power
+nada
+
+- itaipava
+bar do camarote
+João -  cobrar o photopoint que foi usado no Sete Lagoas
+atualziar o projeto do painel de led 10x1,5
+desenhar o box
+
+- algar
+queria instalar um L com duas paredes de 3m
+uma área de totem de ativação de celular (no café)
+
+- omi
+
+- desenhar o box do café
+
+- Uniube
+totem de carregamento de celular
+
+- check mate
+nada
+
+- silk
+nada
+
+- coyote
+empurra eles pro gold
+
+- drogaria
+nada
+
+- sicred
+nada
+
+- te levo
+rua

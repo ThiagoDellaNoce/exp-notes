@@ -77,7 +77,7 @@ puxar com o cuei e mais gente
 
 - PTA - Bruno organizando
 - Empilhadeira - segunda feira uma, terça cedo vem outra
-- Luiz e Leozão - amanhã | 
+- Luiz e Leozão - amanhã
 
 ## Mobilia
 
@@ -88,6 +88,7 @@ mesa de picnic
 ## Bistros
 
 ## extintores
+
 Ver se os extintores estão funcionando - 40 extintores
 
 Amanhã cedo falar apenas de Corporativo
@@ -97,9 +98,11 @@ Amanhã cedo falar apenas de Corporativo
 # Mão de obra
 
 ## Seguranças
+
 Reunião amanhã com ele - 150 sendo 20 GE
 
 ## Brigadistas
+
 Ver oque o projeto pede
 
 ## limpeza

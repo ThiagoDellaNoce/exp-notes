@@ -1,5 +1,66 @@
 # REUNIÃO 14/09
 
+brinquedos
+passou as mauqinas
+querou o muro das ambulancia
+alisou terra do timeline
+
+hidráulica ta rolando
+
+elétrica
+geraluz
+talento no estacionamento
+ligar rede da avenida
+arrumar/ligar luz do poste na vila
+
+bahia
+espalhou as caixas
+atualizar relação de caixa de passagem extras (entender custo extra)
+passa cabo no palco raizes - 150m
+
+# carregadores para amanhã
+
+[tarefa] - pegar duas travas na locartudo - baiano
+
+produção - 4 - Timeline, Geovana e Leozão
+Lok - 4
+Future Pro - 6
+Breno Led - 2
+Adão Fechamento - 5 (Udia)
+Adão Piso - 5 (Udia)
+Amarildo - 4 (bater horário desses carregadores)
+
+[tarefa] - ponto de iluminação no parque de diversão (Leozão)
+
+# fehcamento do batista
+
+- amanhã vem com turma a mais para terminar oque precisa
+
+# fechamento do adão
+
+- 5 carregadores - outra equipe
+um montador para fechamento
+dependente da lok subir a cobertura
+e amanhã cedo atacar o prime, restante do café
+e também as escadas do gold
+
+[TAREFA] - GONZAGA COBRAR O CONTATO DO BRÁS DE UBERLÂNDIA
+
+# Lok
+- trocar o cabo
+- conferir as cintas
+- subir novamente
+- caçambas
+- matar tudo amanhã
+
+# piso do adão
+
+*[TAREFA] - tenda avance para a lojinha 5x3 (OLLIVER)
+
+# troca da cobertura da entrada
+
+## Visão geral do resultado da chuva
+
 ## Estaios
 
 -
@@ -44,10 +105,27 @@
 
 - Gerador palco
 - Gerador ambiente
+- vem uma máquina a mais
+
+## Hidráulica
+
+[TAREFA] - SINALZIAR MANGUEIRA
+
+[TAREFA] - PONTOS DE ENERGIA NOS BANHEIROS VIP QUARTA CEDO PRONTO
 
 ## Container
 
-[TAREFA] - Levantar demandas
+[TAREFA] - trimovie
+2 do elias, PBR e trimovie
+Mover o do bahia
+baby chegar dois - camarim e caixas
+falta um esscritório do cleiton financeiro
+
+## arena
+
+[TAREFA] - amanhã MARCÂO
+
+## Studio e bar da redbull
 
 ## octanorm e climatizadores
 
@@ -56,16 +134,16 @@
 
 ## Easyfloor
 
-- Cobrir receptivo
-- Cobrir Café
+- Cobrir receptivo - 90% 
+- Cobrir Café  amanhã - depende do prime entregue
 
 ## Andaimes
 
-- Buscar as duas peças
+[TAREFA] - Buscar as duas peças
 
 ## Mobilia
 
-[TAREFA] - Puxar tarefas
+[TAREFA] - Puxar tarefas - quarta feira
 
 ## Mesa e cadeira
 
@@ -146,9 +224,20 @@
 - STAND NATALIA
 - BALCÃO
 
+[TAREFA] - COBRAR O GONZAGA DO CRONOGRAMA DE ENTRADA DO SERGINHO
+entregar gold, arquibancada e receptivo
+
+## Comunicação visual
+
+- 
+- DESENHO DO PROJETO DO BOX DO LED DO RECEPTIVO
+- 
+
 ## Parque de diversão
 
-**** [TAREFA] - Wagner
+brita e areia - Leozão e Timeline
+
+* [TAREFA] - Wagner
 
 ## BOX
 
@@ -169,9 +258,11 @@
 
 ## Som, Luz e Led
 
+--- quarta feira
 - Som Palco
 - Som Delays
 
+--- 90% 
 - Luz Fachada
 - Luz Pirulitos de plateia
 - Luz Cenica receptivo
@@ -179,6 +270,7 @@
 - Luz Cenica gold
 - Luz Arena
 
+--- 30%
 - Led Testeira
 - Led Imags
 - Led Saia de palco
@@ -189,7 +281,7 @@
 
 FRONT - POSICIONAR BANHEIROS MASCULINOS
 FRONT - POSICIONAR BANHEIROS FEMININOS
-GOLD - POSICIONAR BANHEIROS MASCULINOS
+16 GOLD - POSICIONAR BANHEIROS MASCULINOS
 GOLD - POSICIONAR BANHEIROS FEMININOS
 PRIME - POSICIONAR BANHEIROS MASCULINOS
 PRIME - POSICIONAR BANHEIROS FEMININOS
@@ -212,12 +304,9 @@ GERAL - POSICIONAR BANHEIROS STAFF
 - ARRUMAR TENDA PORTARIA
 - 10X5 EXTRA PORTARIA
 
-
 ## Extintores
 
-- 
-
-
+-
 
 ---
 
@@ -225,7 +314,7 @@ GERAL - POSICIONAR BANHEIROS STAFF
 
 ## Posso ajudar
 
--
+- Jean
 
 ## Segurança e Brigadista
 
@@ -249,5 +338,15 @@ GERAL - POSICIONAR BANHEIROS STAFF
 
 # Frete
 
-- FRETE PALLETS
-- FRETE CARPETES
+- 
+
+# compras 
+
+- fita zebrada
+
+## mesa e cadeira
+[tarefa] - Balcão de box
+
+## bater horário de segurança entrar junto com a Dallony [Junior]
+
+## Assumir o contato do show de drone [EDIVILSON]

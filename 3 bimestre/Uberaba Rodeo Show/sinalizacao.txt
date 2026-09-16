@@ -1,0 +1,92 @@
+* entrada
+E5 4
+M2 1
+M1 1
+f4 1
+
+extintor 4
+
+* praça de alimentação
+P3 1
+A2 1
+A5 1
+P1 1
+
+E5 4
+M2 1
+F2 1
+F4 1
+
+extintor 5
+
+* brinquedos/receptivo
+F2 1
+m2 1
+e5 4
+p1 1
+a2 1
+a5 1
+p3 1
+s12 2
+
+extintor 5
+
+* arena
+s3 2
+s8 1
+s6 2
+m2 1
+s1 1
+s2 3
+e5 2
+
+extintor 3
+
+* café
+e5 2
+s9 1
+s7 1
+s8 1
+s1 1
+f4 2
+p1 1
+a2 1
+a5 1
+p3 1
+
+extintor 3
+
+* palco
+s7 1
+m2 2
+e5 1
+s12 2
+
+extintor 2
+
+* Gold
+
+e5 2
+m2 1
+s2 1
+s1 1
+s8 2
+s7 1
+s9 1
+f3 1
+s6 1
+f4 4
+f2 1
+
+extintor 3
+
+* queima de fogos
+
+e5 2
+p3 2
+p1 2
+
+extintor 2
+
+
+

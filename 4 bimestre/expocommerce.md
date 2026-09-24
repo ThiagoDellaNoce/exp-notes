@@ -77,12 +77,16 @@ atualizar as paredes novas do sebrae (Giovana)
 confirmação [Nathalia] do que foi vendido extra para a [Geovana] confirmar com o Facchini
 
 Elétrica
+- Pedir caixa de passagem para o Nilson
+- comprar multivia (main power para caixinhas)
+
+
 - 33 reguas de 3 pontos (nos stands)
 - Contratar um gerador de stand-by
 - Multicabo e caixa de passagem para o palco
 - ligar os focais
 - iluminação de serviço - entrada, estacionamento, fundo do palco, 
-- demanda da pizzaria (precisa puxar)
+- demanda da pizzaria (precisa puxar) -puxar da parede
 - ligar os aéreos
 - ligar os climatizadores
 - regua no credenciamento
@@ -97,3 +101,40 @@ puxar com a Veronica, quantidade de meninas
 4 seguranças e 1 brigadista
 
 lineup - Nathalia
+
+[REUNIÃO24/09]
+
+Marlom - [GeovanaeKadu] - Forração, trainel e carpete
+Mobiliário - amanhã cedo - estocar na cozinha [Geovana]
+Iluminação cenica - [Timeline] Comprar focais / ou fechar direto no escopo da Luz
+Comunicação visual - [TImeline]rodar hoje! - cria ou silk
+Duzão - [Olliver] - fachada da entrada/teto do foyer/ondulado do palco
+
+carpete - [GeovanaKadu] iniciar do palco para parede da entrada
+mobiliário - [Geovana]
+museu do comércio - [Timeline] CDL (sexta-feira)
+Liberado ao meio dia na sexta-feira, para montagem de stands [Timeline]
+Pintura - confirmar custo e iniciar na quinta cedo [Junior]
+
+Climatizadores - 07 unds (conversar com o Bruno) com extensão [Geovana]
+Aéreos - Instalar hoje - Manutenção nos neonflex - Instalar os cabos de aço - [PROD]
+Testeiras - Duzão - mandou rodar hoje [GeovanaKadu]
+1 mesa com 3 cadeiras por stand
+atualizar as paredes novas do sebrae (Giovana)
+confirmação [Nathalia] do que foi vendido extra para a [Geovana] confirmar com o Facchini
+
+Elétrica
+- Pedir caixa de passagem para o Nilson
+- comprar multivia (main power para caixinhas)
+
+- 33 reguas de 3 pontos (nos stands)
+- Contratar um gerador de stand-by
+- Multicabo e caixa de passagem para o palco
+- ligar os focais
+- iluminação de serviço - entrada, estacionamento, fundo do palco
+- demanda da pizzaria (precisa puxar) -puxar da parede
+- ligar os aéreos
+- ligar os climatizadores
+- regua no credenciamento
+
+Hidráulica - ligar a pia

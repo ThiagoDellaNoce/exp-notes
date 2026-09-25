@@ -138,3 +138,39 @@ Elétrica
 - regua no credenciamento
 
 Hidráulica - ligar a pia
+
+[REUNIÃO25/09]
+Entrada:
+- Fechamento em lona;
+- Painel de led 4x3;
+- Material painel de led 4x3;
+- Rebaixamento de teto;
+- Paredes sarrafeadas;
+- Cenografia;
+- Balcões de atendimento;
+- Estantes;
+- Gradil;
+- Forração de gradil;
+- Acabamento piso;
+
+Corredor:
+- Carpete;
+- Paredes laterais;
+- Iluminação cenica;
+- Frete no sesi;
+- Posicionamento do museu do comercio;
+- Pintura banheiro;
+- Limpeza banheiros;
+
+Galpão Stands:
+- Carpete;
+- Lounges;
+- Iluminação cenica;
+- Montagem dos stands;
+- Elétrica;
+
+Palco:
+- Som
+- Luz
+- Carpete palco
+- Envelopamento

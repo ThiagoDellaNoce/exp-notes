@@ -42,6 +42,7 @@ Links úteis:
 - Drive: https://drive.google.com/drive/folders/1teHCPISPWdKhcU2MDpXcp8Ge0bEniUwu?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1FZb46jXPLfn14WsKQKn6H1mN8_J3_SjsRAQQ0qzrY64/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953125772083/list/1218953757161313
+- Planilha KADU: https://docs.google.com/spreadsheets/d/13LIATqNXADpAaph57_mQNfqBE74XmDsl/edit?gid=724882360#gid=724882360
 
 *17/10 - Churrasco armazém*
 - Instagram: https://www.instagram.com/churrascoarmazem/
@@ -67,10 +68,11 @@ Links úteis:
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1gsqVcKkS4c7Zyt1c1FOQqEJUL7xBfrbffJzGF6-pIfI/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953125772091/list/1218953552763011
 
-*30/10 - [FORMS] colégio SESI 1/20*
+*30/10 - [FORMS] colégio SESI 2/26*
 - Drive: https://drive.google.com/drive/folders/16Ao3nYSC9dqeomYld873jLTQ2nuoRLJx?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1K-I_WrEQvwNU7rsEbvINCV4xu0GQnhU8IpzPWgnAZ6o/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953125772095/list/1218953602113115
+- Planilha KADU: https://docs.google.com/spreadsheets/d/1hC8fewP6ePQZtQieJCY8DhqJ2ZprtY5l/edit?gid=536136268#gid=536136268
 
 *31/10 e 01/11 - Oktoberaba*
 A edição de 2026 será realizada no espaço multiuso da ABCZ, nos dias 31 de outubro e 1º de novembro, no fim de semana que antecede o feriado de Finados.
@@ -101,6 +103,7 @@ A edição de 2026 será realizada no espaço multiuso da ABCZ, nos dias 31 de o
 - Drive: https://drive.google.com/drive/folders/16OltQ_8UYXHxusu9ZO3mpmhk5x3nNDFE?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1sq0tpN79cftlGC-cE4odr5QWF9-0b3DyKocrNsfMgTg/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953071944425/list/1218953553836715
+- Planilha KADU: https://docs.google.com/spreadsheets/d/1JdvFV7UJ-0y11q72YTEgcpy4YJyaaIbf-poSvS7eoZ4/edit?gid=0#gid=0
 
 *12/11 . 13/11 - Arenas ITC (CDL Hall)*
 - Instagram: https://www.instagram.com/intercursosuftm/
@@ -131,6 +134,7 @@ A edição de 2026 será realizada no espaço multiuso da ABCZ, nos dias 31 de o
 - Drive: https://drive.google.com/drive/folders/17eSPOggY0CBUgK5YOKKGo4Qo-1ytMaCK?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1UMOlnc-K0qz7QgehnDtrRZsvApt1NBjW3NTCQW9_s8Q/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953071944433/list/1218953787116134
+- Planilha Kadu: https://docs.google.com/spreadsheets/d/18Qc6NKpxxNPpGG4X1h3iD2rKcriQgrK_/edit?gid=536136268#gid=536136268
 
 *28/11 - Chamado do Grifo*
 - Instagram: https://www.instagram.com/ochamadodogrifo/
@@ -153,6 +157,7 @@ Sem mais informações por hora
 - Drive: https://drive.google.com/drive/folders/1BBoWTx142iesfHOI44DJ506UinhDc4Bt?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1VjkAIAzF5qQA0mIm5WcOUlOEQ-xoxjmdi-zRDsU9nDE/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953071944445/list/1218953907381901
+- Planilha KADU: https://docs.google.com/spreadsheets/d/1CTbHUW-l97kmaieR4e5ve_8NZhc4SDTO/edit?gid=1685981470#gid=1685981470
 
 *05/12 - Integrabixos Uberlândia*
 - Instagram: https://www.instagram.com/integrabixos/
@@ -164,12 +169,14 @@ Sem mais informações por hora
 - Drive: https://drive.google.com/drive/folders/1E6S7SyGMScMmL5_tx3dm_AJATzhBEdeZ?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1kwLuSqiGibC6BplYfAW2BI2s1sKGg9C0gy8IZxubsP0/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953071944449/list/1218953760706748
+- Planilha KADU: https://docs.google.com/spreadsheets/d/13LIATqNXADpAaph57_mQNfqBE74XmDsl/edit?gid=724882360#gid=724882360
 
 *11/12 - [FORMS] Colégio SESI 1/26 Missa*
 *12/12 - [FORMS] Colégio SESI 1/26 Baile gala*
 - Drive: https://drive.google.com/drive/folders/1FjACGBEZa16VQUZEPj3XWuH0aKzrTZbM?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1GBFrWJVig15ehnAXkJYhoVukBAvIcFX6ujnitYa6tDI/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953071944453/list/1218953908040082
+- Planilha KADU: https://docs.google.com/spreadsheets/d/1hC8fewP6ePQZtQieJCY8DhqJ2ZprtY5l/edit?gid=536136268#gid=536136268
 
 *12/12 - Lançamento CIA 2027*
 - Instagram: https://www.instagram.com/copainteratleticas/

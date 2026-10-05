@@ -164,8 +164,6 @@ Enviar o orçamento - [Timeline]
 
 ## CANCELADO - 25/09 - Rock In Sacra
 
-## 
-
 ## 29/10 - Panificação
 
 ## 20/11 - InRifaina
@@ -173,5 +171,3 @@ Enviar o orçamento - [Timeline]
 *** [Olliver] - VT na quarta-feira
 
 ## 28/11 - Chamado do grifo
-
-## 15/01 - System of a Down

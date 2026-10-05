@@ -18,7 +18,7 @@ Eventos 4° bimestre:
 *26/11 - [FORMS] Colégio gabarito Missa*
 *27/11 - [FORMS] Colégio gabarito Baile*
 *28/11 - Chamado do Grifo*
-*28/11 - Evento em Uberlândia* ***
+*28/11 - Evento em Uberlândia ***
 *04/12 - TOP TV Integração* ***
 *04/12 - [FORMS] Meio médico MEDUNI 49*
 *04/12 - [FORMS] Baile gala CNSD*
@@ -26,10 +26,6 @@ Eventos 4° bimestre:
 *11/12 - [FORMS] Colégio SESI 1/26 Missa*
 *12/12 - [FORMS] Colégio SESI 1/26 Baile gala*
 *12/12 - Lançamento CIA 2027*
-
-
-
-
 
 Links úteis:
 *07/10 - Lançamento Integrabixos UDI (Arq)*

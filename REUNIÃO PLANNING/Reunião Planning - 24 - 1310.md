@@ -1,15 +1,30 @@
 # Resumo de tarefas
 
-## 20/10 . 14/11 - Intercursos 2026
+## ABCZ 
+acaba dia 18/10
+
+## Forms med 96 e ITBA
+Terminar e aprovar as planilhas
+
+## med 44 - festa do ano que vem
+## meio médico no final do ano
+
+## dia 30 - colégio SESI
+
+## 17/10 . 14/11 - Intercursos 2026
 
 planilha de trabalho - https://docs.google.com/spreadsheets/d/1h4b3gxsT9Zqk12DBskix35zTfcAaDUxhnYICUuEJgWA/edit
+
+- Fechar o som para os fuminhos;
+- Oque precisa de bar;
+- Contratar staff;
 
 ### JOGOS
 
 19/OUT A 03/NOV - MODALIDADES EXTRA-QUADRA
 OUTRAS PRAÇAS (FUNEL, UTC, ETC)
 04 A 13/NOV - MODALIDADES DE QUADRA - CDL
-13 E 14/NOV - FINAIS DE QUADRA - CDL  
+13 E 14/NOV - FINAIS DE QUADRA - CDL
 
 ### EVENTOS
 
@@ -202,3 +217,108 @@ Sem mais informações por hora
 - Drive: https://drive.google.com/drive/folders/1CqfQiKAcIsRGu_I1FkQzgrj3SeAs-1U3?usp=drive_link
 - Planilha de trabalho: https://docs.google.com/spreadsheets/d/1xvgVYNQDmae6DA_6usB6udAlMPKkH84qpZ24DjUHCD8/edit?usp=drive_link
 - Asana: https://app.asana.com/1/1155809898842124/project/1218953071944457/list/1218953788907015  -->
+
+## Sun festival
+
+- Som luz e Led
+    Gonzaga
+        Silas
+        M2
+        Bigsom
+        Flávio (bonecão)
+
+- painel de led
+    Olliver
+        Elton (GBM)
+
+- Gerador
+    Olliver
+        Lorran
+        Sandro (KVA)
+
+- Elétrica
+    Itamar
+        Seu Wagner
+
+- Box
+    Olliver
+        Madruga
+        GBM
+
+- Piso
+    Olliver
+        Mobile2000
+
+- Fechamento
+    Olliver
+        Mtendas
+
+- Tendas
+    Itamar
+        Achar fornecedor
+
+- Gradil
+    Itamar
+        Achar fornecedor
+
+- Banheiro quimico
+    Itamar
+        Ativa
+
+- Ambulância
+    Della
+        Bruno
+
+- CCO (monitoramento)
+    Della
+        Descobrir
+
+- Mesa e cadeira
+    Itamar
+        descobrir necessidade
+
+- Passacabo
+    Olliver
+
+- Octanorm
+    Itamar
+        Definir quantitativo [Olliver]
+
+- Container
+    Itamar
+        descobrir necessidade
+
+- Forração
+    Olliver
+
+- Mobilia
+    Olliver
+        Sancello ou Pacube
+
+- Comunicaçao visual
+    Ollvier
+        Esperar o projeto final
+
+- Sinalização bombeiro
+    Olliver
+
+- Elétrica
+    Itamar
+
+- Caminhão pipa
+    Itamar
+
+- Segurança e brigada
+    Itamar
+
+- Limpeza
+    Itamar
+
+- Camarim
+    Olliver
+
+## Intercursos
+
+- fazer orçamento de tesourinha
+- Andaime
+

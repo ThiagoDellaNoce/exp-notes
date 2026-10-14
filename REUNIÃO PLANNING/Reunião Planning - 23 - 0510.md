@@ -51,8 +51,10 @@ planilha de trabalho - https://docs.google.com/spreadsheets/d/1h4b3gxsT9Zqk12DBs
 
 ## Geral
 
-[Tarefa] - Atualizar planilhas do UAI Summit
-[Tarefa] - Atualizar planilhas do Expocommerce
+[Tarefa] - Atualizar planilhas do UAI Summit ok
+
+[Tarefa] - Atualizar planilhas do Expocommerce ok
+
 [Tarefa] - Atualizar planilhas do Festival Gastronomico
 [Tarefa] - Atualizar planilhas do Uberaba Rodeo Show
 
@@ -67,3 +69,10 @@ planilha de trabalho - https://docs.google.com/spreadsheets/d/1h4b3gxsT9Zqk12DBs
 - Desmontagem CDL - guardar 50 pallets
 - Guardar paredes de sarrafo
 - Levar as coisas para o eco ponto
+
+24/10
+14h
+Fazenda experimental da ABCZ
+
+somzinho tipo intercursos
+dia 
